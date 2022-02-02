@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/</loc>
+         <loc>https://lxlonlyn.github.io/CSP-Project-with-MkDocs/</loc>
          <lastmod>2022-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/problem/</loc>
+         <loc>https://lxlonlyn.github.io/CSP-Project-with-MkDocs/24/1/</loc>
          <lastmod>2022-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/24/1/</loc>
+         <loc>https://lxlonlyn.github.io/CSP-Project-with-MkDocs/24/main/</loc>
          <lastmod>2022-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
