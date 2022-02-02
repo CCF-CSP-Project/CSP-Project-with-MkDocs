@@ -6,6 +6,7 @@ theme: material
 
 nav:
     - 主页: index.md
+    - 题目列表: problem.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -21,6 +22,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.tabbed:
       alternate_style: true 
+  - tables
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6

@@ -1,6 +1,6 @@
-## 这是什么？
+## 历年 CCF CSP 题目解析
 
-历年 CCF CSP 题目解析，用来整理记录 CSP 考试题目的分析及题解。
+历年 CCF CSP 题目解析，用来整理记录 CSP 考试题目的分析及题解。可以在 [这个页面](https://lxlonlyn.github.io/CSP-Project-with-MkDocs/) 查看。 
 
 您目前正在浏览的是 MkDocs 版本，LaTeX 版本请查看 [历年 CCF CSP 题目解析](https://github.com/lxlonlyn/CSP-Project)。
 
