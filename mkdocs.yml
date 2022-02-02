@@ -10,6 +10,10 @@ nav:
       - 第 24 次: 
         - 总览: 24/main.md
         - 202112-1 序列查询: 24/1.md
+        - 202112-2 序列查询新解: 24/2.md
+        - 202112-3 登机牌号码: 24/3.md
+        - 202112-4 磁盘文件操作: 24/4.md
+        - 202112-5 极差路径: 24/5.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -26,6 +30,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - tables
+  - def_list
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
