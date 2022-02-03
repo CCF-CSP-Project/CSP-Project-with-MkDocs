@@ -2,18 +2,36 @@ site_name: CSP Project
 site_url: https://lxlonlyn.github.io/CSP-Project-with-MkDocs/
 repo_url: https://github.com/lxlonlyn/CSP-Project-with-MkDocs
 site_author: lonlyn
-theme: material
+theme: 
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
 
 nav:
-    - 主页: index.md
-    - 题目列表: 
-      - 第 24 次: 
-        - 总览: 24/main.md
-        - 202112-1 序列查询: 24/1.md
-        - 202112-2 序列查询新解: 24/2.md
-        - 202112-3 登机牌号码: 24/3.md
-        - 202112-4 磁盘文件操作: 24/4.md
-        - 202112-5 极差路径: 24/5.md
+  - 简介: 
+    - index.md
+    - 关于本项目: introduction/about.md
+    - 如何参与: introduction/contributing.md
+    - 常见问题解答: introduction/faq.md
+  - 题目列表: 
+    - problem/index.md
+    - 第 24 次: 
+      - problem/24/index.md
+      - 202112-1 序列查询: 
+        - problem/24/1/index.md
+        - 文章 1: problem/24/1/1.md
+      - 202112-2 序列查询新解: 
+        - problem/24/2/index.md
+        - 文章 1: problem/24/2/1.md
+        - 文章 2: problem/24/2/2.md
+      - 202112-3 登机牌号码: 
+        - problem/24/3/index.md
+        - 文章 1: problem/24/3/1.md
+      - 202112-4 磁盘文件操作: 
+        - problem/24/4/index.md
+      - 202112-5 极差路径: 
+        - problem/24/5/index.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
