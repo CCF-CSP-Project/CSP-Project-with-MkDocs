@@ -4,6 +4,8 @@ repo_url: https://github.com/lxlonlyn/CSP-Project-with-MkDocs
 site_author: lonlyn
 theme: 
   name: material
+  language: zh
+  custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.tabs
