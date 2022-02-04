@@ -321,9 +321,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          如何参与
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         如何参与
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    使用 Git 进行本地编译
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -768,6 +799,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    使用 Git 进行本地编译
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -785,6 +831,47 @@
 
 
 <h1 id="_1">如何参与</h1>
+<h2 id="git">使用 Git 进行本地编译</h2>
+<ol>
+<li>将主仓库 Fork 到自己的仓库中；</li>
+<li>将 Fork 后的仓库克隆（clone）到本地；</li>
+<li>在本地进行修改后提交（commit）这些更改；</li>
+<li>将这些更改推送（push）到你克隆的仓库；</li>
+<li>提交 Pull Request 至主仓库。</li>
+</ol>
+<p>如果您无法理解上述操作，可以使用以下一系列操作。</p>
+<ol>
+<li>将仓库拷贝到自身账户<ol>
+<li>如果您没有 Github 的账户，请<a href="https://github.com/signup">注册</a>一个。</li>
+<li>根据自己的平台，下载并安装 Git，参考<a href="https://git-scm.com/download">链接</a>。</li>
+<li>装好之后，配置本地用户。在命令行中输入以下代码：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git config -global user.name &quot;你自己的用户名&quot;
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git config -global user.email &quot;自己的邮箱@example.com&quot;
+</code></pre></div></li>
+<li>在<a href="https://github.com/lxlonlyn/CSP-Project-with-MkDocs/">本仓库</a>的右上角有 <span class="keys"><kbd>Fork</kbd></span> 选项，点击它。之后您会发现该项目已经拷贝到了您的库中。</li>
+<li>在本地建好一个文件夹，用于存放拷贝下来的文件。进入该文件夹，输入以下指令：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git clone https://github.com/您的github账号名称/CSP-Project-with-MkDocs.git
+</code></pre></div></li>
+<li>您现在应该能在该文件夹中看到整体项目了。</li>
+</ol>
+</li>
+<li>在自身仓库中进行修改<ol>
+<li>在该文件夹中进行对应的修改。<strong>在您的仓库里的修改不会影响到本项目页面的展示，请不用担心损坏问题。</strong></li>
+<li>进行对应修改之后，在该文件夹中开启命令行，输入以下指令：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git add .
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>git commit -m &quot;我做出了哪些贡献&quot;
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>git push origin master
+</code></pre></div></li>
+<li>登入 Github 网页端，应该可以看见您的仓库内已经出现了对应的变化。</li>
+</ol>
+</li>
+<li>将自身仓库提交到本仓库<ol>
+<li>在您的仓库页面，点击导航栏中的 <span class="keys"><kbd>Pull request</kbd></span>，之后再点击右上角绿色的 <span class="keys"><kbd>New pull request</kbd></span> 。</li>
+<li>确认 Pull request 的方向，应该由您的仓库指向本仓库。确认无误后，点击绿色的 <span class="keys"><kbd>Create pull request</kbd></span> 。</li>
+<li>填写好对应评论，点击右下角绿色 <span class="keys"><kbd>Create pull request</kbd></span> 即可。</li>
+</ol>
+</li>
+</ol>
 
               
 

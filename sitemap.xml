@@ -75,4 +75,14 @@
          <lastmod>2022-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://lxlonlyn.github.io/CSP-Project-with-MkDocs/test_pages/comment/</loc>
+         <lastmod>2022-02-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lxlonlyn.github.io/CSP-Project-with-MkDocs/test_pages/unfinished/</loc>
+         <lastmod>2022-02-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
