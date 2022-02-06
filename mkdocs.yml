@@ -1,7 +1,7 @@
 site_name: CSP Project
-site_url: https://lxlonlyn.github.io/CSP-Project-with-MkDocs/
-repo_url: https://github.com/lxlonlyn/CSP-Project-with-MkDocs
-site_author: lonlyn
+site_url: https://ccf-csp-project.github.io/CSP-Project-with-MkDocs/
+repo_url: https://github.com/ccf-csp-project/CSP-Project-with-MkDocs
+repo_name: CSP Project with MkDocs
 theme: 
   name: material
   language: zh
@@ -15,6 +15,7 @@ nav:
     - index.md
     - 关于本项目: introduction/about.md
     - 如何参与: introduction/contributing.md
+    - 如何编写自己的题解页面: introduction/write_passage.md
     - 常见问题解答: introduction/faq.md
   - 题目列表: 
     - problem/index.md
