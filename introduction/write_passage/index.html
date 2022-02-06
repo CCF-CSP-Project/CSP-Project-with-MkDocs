@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://ccf-csp-project.github.io/CSP-Project-with-MkDocs/introduction/faq/">
+        <link rel="canonical" href="https://ccf-csp-project.github.io/CSP-Project-with-MkDocs/introduction/write_passage/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.9">
     
     
       
-        <title>常见问题解答 - CSP Project</title>
+        <title>如何编写自己的题解页面 - CSP Project</title>
       
     
     
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              常见问题解答
+              如何编写自己的题解页面
             
           </span>
         </div>
@@ -324,20 +324,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../write_passage/" class="md-nav__link">
-        如何编写自己的题解页面
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -349,10 +335,55 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          如何编写自己的题解页面
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        常见问题解答
+        如何编写自己的题解页面
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    文档结构说明
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        常见问题解答
+      </a>
     </li>
   
 
@@ -802,6 +833,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    文档结构说明
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -813,37 +859,180 @@
               
 
                 
-<a href="https://github.com/ccf-csp-project/CSP-Project-with-MkDocs/edit/master/docs/introduction/faq.md" title="编辑此页" class="md-content__button md-icon">
+<a href="https://github.com/ccf-csp-project/CSP-Project-with-MkDocs/edit/master/docs/introduction/write_passage.md" title="编辑此页" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="_1">常见问题解答</h1>
-<div class="admonition question">
-<p class="admonition-title">为什么要做这个项目？</p>
+<h1 id="_1">如何编写自己的题解页面</h1>
 <ol>
-<li>网上题解鱼龙混杂，很难找到适合自己的；</li>
-<li>很多选手无法做到一眼看出某些题的做法（比如笔者），需要对各种方法进行分析、尝试与筛选，而很多题解往往“一步到位”，缺少中间分析；同时部分分的思路提及较少；</li>
-<li>笔者受学校老师所托，写出一本书来提升笔者所在学校的整体 CSP 认证水平。后来在 <a href="https://github.com/icy-blue">icy-blue</a> 大佬的提醒下，笔者了解了 MkDocs，感觉相比用 LaTeX 编写书籍而言，它更适合于大家交流思路。</li>
+<li>我们欢迎任何人提出您的思路！但是对于和已有思路重合的思路，我们会考虑合并。所以请再阅读完所有思路的大概后，确定没人做过后再添加您的思路。如果只是建议或提示，请通过修改实现。</li>
+<li>将该仓库存放到本地，可以参考<a href="../contributing/#git">使用 Git 进行本地编辑</a>中的第一步。</li>
+<li>在<strong>恰当的位置</strong>添加您想增加的页面，请参考下文的<a href="#_2">文档结构说明</a>。</li>
+<li>在进行修改完善后，提交到本仓库。可以参考<a href="../contributing/#git">使用 Git 进行本地编辑</a>。</li>
+</ol>
+<h2 id="_2">文档结构说明</h2>
+<ol>
+<li>所有的页面都存放在 <code>docs</code> 文件夹下，思路及题解在 <code>docs/problem</code> 中。</li>
+<li>如果您想增加第 x 次认证第 y 题的题解，请在 <code>docs/problem/x/y</code> 下创建您的文档。如第 24 次认证第 5 题的题解文件夹在 <code>docs/problem/24/5</code>。</li>
+<li>请将您的文档命名为 <code>n.md</code>，其中 n 代表目前该题目题解目录内题解文章的个数。比如当文件夹中有 <code>1.md</code> 和 <code>2.md</code> 后，您可以将您的文档命名为 <code>3.md</code>。</li>
+<li>如果您需要增加图片，则可以在题目文件夹下的 image 文件夹（如果没有则创建）中存放图片，命名为 <code>n-name.xxx</code>，其中 n 为对应的文档名称，<code>name</code> 为图片名字，<code>xxx</code> 为后缀。如您要给 <code>3.md</code> 增加图片 <code>test.png</code>，则请在 <code>image</code> 文件夹中命名为 <code>3-test.png</code>。</li>
+<li>在编写完之后，请在题目文件夹对应的 <code>index.md</code> 中，在思路列表添加对应您的记录。</li>
+</ol>
+<details class="example" open="open"><summary>我是一个栗子</summary><p>比如说，您要编写第 233 届比赛第 1 题的题解思路，该比赛在 2042 年 12 月举办。目前已经有两个题解文件 <code>1.md 2.md</code> 了。</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">创建 docs/problem/233/1/3.md</label><label for="__tabbed_1_2">docs/problem/233/index.md</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table class="annotate highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-0-10">10</a></span>
+<span class="normal"><a href="#__codelineno-0-11">11</a></span>
+<span class="normal"><a href="#__codelineno-0-12">12</a></span>
+<span class="normal"><a href="#__codelineno-0-13">13</a></span>
+<span class="normal"><a href="#__codelineno-0-14">14</a></span>
+<span class="normal"><a href="#__codelineno-0-15">15</a></span>
+<span class="normal"><a href="#__codelineno-0-16">16</a></span>
+<span class="normal"><a href="#__codelineno-0-17">17</a></span>
+<span class="normal"><a href="#__codelineno-0-18">18</a></span>
+<span class="normal"><a href="#__codelineno-0-19">19</a></span>
+<span class="normal"><a href="#__codelineno-0-20">20</a></span>
+<span class="normal"><a href="#__codelineno-0-21">21</a></span>
+<span class="normal"><a href="#__codelineno-0-22">22</a></span>
+<span class="normal"><a href="#__codelineno-0-23">23</a></span>
+<span class="normal"><a href="#__codelineno-0-24">24</a></span>
+<span class="normal"><a href="#__codelineno-0-25">25</a></span>
+<span class="normal"><a href="#__codelineno-0-26">26</a></span>
+<span class="normal"><a href="#__codelineno-0-27">27</a></span>
+<span class="normal"><a href="#__codelineno-0-28">28</a></span>
+<span class="normal"><a href="#__codelineno-0-29">29</a></span>
+<span class="normal"><a href="#__codelineno-0-30">30</a></span>
+<span class="normal"><a href="#__codelineno-0-31">31</a></span>
+<span class="normal"><a href="#__codelineno-0-32">32</a></span>
+<span class="normal"><a href="#__codelineno-0-33">33</a></span>
+<span class="normal"><a href="#__codelineno-0-34">34</a></span>
+<span class="normal"><a href="#__codelineno-0-35">35</a></span>
+<span class="normal"><a href="#__codelineno-0-36">36</a></span>
+<span class="normal"><a href="#__codelineno-0-37">37</a></span>
+<span class="normal"><a href="#__codelineno-0-38">38</a></span>
+<span class="normal"><a href="#__codelineno-0-39">39</a></span>
+<span class="normal"><a href="#__codelineno-0-40">40</a></span>
+<span class="normal"><a href="#__codelineno-0-41">41</a></span>
+<span class="normal"><a href="#__codelineno-0-42">42</a></span>
+<span class="normal"><a href="#__codelineno-0-43">43</a></span>
+<span class="normal"><a href="#__codelineno-0-44">44</a></span>
+<span class="normal"><a href="#__codelineno-0-45">45</a></span>
+<span class="normal"><a href="#__codelineno-0-46">46</a></span>
+<span class="normal"><a href="#__codelineno-0-47">47</a></span>
+<span class="normal"><a href="#__codelineno-0-48">48</a></span></pre></div></td><td class="code"><div class="annotate highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="gh"># 204212-1 我是题目名字 (1)</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="gu">## 50% 数据——某个思路 (2)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>这是一段演示。
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a>时间复杂度 $\mathbf{O}(n)$。
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="gu">## 100% 数据——根据某个思路的改进</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a>这是一段演示。
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a>时间复杂度 $\mathbf{O}(1)$。
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="gu">### 实现 (3)</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16"></a>
+<a id="__codelineno-0-17" name="__codelineno-0-17"></a>???+ success &quot;代码实现&quot; (4)
+<a id="__codelineno-0-18" name="__codelineno-0-18"></a>
+<a id="__codelineno-0-19" name="__codelineno-0-19"></a>    === &quot;C++&quot;
+<a id="__codelineno-0-20" name="__codelineno-0-20"></a>
+<a id="__codelineno-0-21" name="__codelineno-0-21"></a>        ```cpp linenums=&quot;1&quot;
+<a id="__codelineno-0-22" name="__codelineno-0-22"></a>        <span class="ni">#include</span> &lt;cstdio&gt;
+<a id="__codelineno-0-23" name="__codelineno-0-23"></a>        <span class="ni">#include</span> &lt;iostream&gt;
+<a id="__codelineno-0-24" name="__codelineno-0-24"></a>        using namespace std;
+<a id="__codelineno-0-25" name="__codelineno-0-25"></a>        int main() {
+<a id="__codelineno-0-26" name="__codelineno-0-26"></a>            // 代码不好懂时，推荐增加注释
+<a id="__codelineno-0-27" name="__codelineno-0-27"></a>            printf(&quot;Hello World!\n&quot;);
+<a id="__codelineno-0-28" name="__codelineno-0-28"></a>            return 0;
+<a id="__codelineno-0-29" name="__codelineno-0-29"></a>        }
+<a id="__codelineno-0-30" name="__codelineno-0-30"></a><span class="sb">        ```</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31"></a>
+<a id="__codelineno-0-32" name="__codelineno-0-32"></a><span class="sb">    === &quot;Java&quot;</span>
+<a id="__codelineno-0-33" name="__codelineno-0-33"></a>
+<a id="__codelineno-0-34" name="__codelineno-0-34"></a><span class="sb">        ```Java linenums=&quot;1&quot;</span>
+<a id="__codelineno-0-35" name="__codelineno-0-35"></a><span class="sb">        import java.util.Scanner;</span>
+<a id="__codelineno-0-36" name="__codelineno-0-36"></a>
+<a id="__codelineno-0-37" name="__codelineno-0-37"></a><span class="sb">        public class Main {</span>
+<a id="__codelineno-0-38" name="__codelineno-0-38"></a><span class="sb">            public static void main(String[] args) {</span>
+<a id="__codelineno-0-39" name="__codelineno-0-39"></a><span class="sb">                System.out.println(&quot;Hello World!\n&quot;);</span>
+<a id="__codelineno-0-40" name="__codelineno-0-40"></a><span class="sb">            }</span>
+<a id="__codelineno-0-41" name="__codelineno-0-41"></a><span class="sb">        }</span>
+<a id="__codelineno-0-42" name="__codelineno-0-42"></a><span class="sb">        ```</span>
+<a id="__codelineno-0-43" name="__codelineno-0-43"></a>
+<a id="__codelineno-0-44" name="__codelineno-0-44"></a>    === &quot;Python 3&quot;
+<a id="__codelineno-0-45" name="__codelineno-0-45"></a>
+<a id="__codelineno-0-46" name="__codelineno-0-46"></a>        ```python linenums=&quot;1&quot;
+<a id="__codelineno-0-47" name="__codelineno-0-47"></a>        print(&quot;Hello World\n&quot;)
+<a id="__codelineno-0-48" name="__codelineno-0-48"></a>        ```
+</code></pre></div>
+</td></tr></table>
+<ol>
+<li>请在文章开头说明对应题目，表示为 <code># yyyymm-p name</code> 的形式，其中 <code>yyyy</code> 对应比赛年份，<code>mm</code> 是月，<code>p</code> 是题目编号，<code>name</code> 是题目名称。</li>
+<li>对于每个思路，请说明得分 + 大致思路。</li>
+<li>实现请单独标出，方便后续引用。</li>
+<li>代码请按照此格式给出。</li>
 </ol>
 </div>
-<div class="admonition question">
-<p class="admonition-title">这个项目是不是等同于 CSP 的 <a href="https://oi-wiki.org/">OI-Wiki</a></p>
-<p>&emsp;&emsp;制作该项目最初的动机并没有 <a href="https://oi-wiki.org/">OI-Wiki</a> 那么伟大，不过最终的目的也是大致相同的：让更多竞赛资源不充裕的同学能方便地接触到训练资源。</p>
-<p>&emsp;&emsp;<a href="https://oi-wiki.org/">OI-Wiki</a> 是非常好的学习网站，但正式比赛的时候，题目使用的算法是不能预料的，需要进行一定分析。本项目旨在帮助读者强化“分析”的能力，与 <a href="https://oi-wiki.org/">OI-Wiki</a> 等共同促进读者水平的进步。</p>
+<div class="tabbed-block">
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-1-10">10</a></span>
+<span class="normal"><a href="#__codelineno-1-11">11</a></span>
+<span class="normal"><a href="#__codelineno-1-12">12</a></span>
+<span class="normal"><a href="#__codelineno-1-13">13</a></span>
+<span class="normal"><a href="#__codelineno-1-14">14</a></span>
+<span class="normal"><a href="#__codelineno-1-15">15</a></span>
+<span class="normal"><a href="#__codelineno-1-16">16</a></span>
+<span class="normal"><a href="#__codelineno-1-17">17</a></span>
+<span class="normal"><a href="#__codelineno-1-18">18</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="gh"># 204212-1 我是题目名字</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="gu">## 题目链接</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a>[<span class="nt">204212-1 我是题目名字</span>](<span class="na">这里是指向 CCF CSP 官网测试网站的网址</span>)
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="gu">## 思路列表</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a>
+<a id="__codelineno-1-9" name="__codelineno-1-9"></a>| 贡献者 | 期望得分 | 大概思路 | 使用语言 | 链接 |
+<a id="__codelineno-1-10" name="__codelineno-1-10"></a>| :-: | :-: | :-: | :-: | :-: | 
+<a id="__codelineno-1-11" name="__codelineno-1-11"></a>| [<span class="nt">其他人的github名称</span>](<span class="na">其他人的github账号</span>) | 100 | 其他人的某个思路1 | [<span class="nt">C++</span>](<span class="na">1.md#对应代码位置</span>) | [<span class="nt">题解链接</span>](<span class="na">1.md#对应解析位置</span>)/[文章 1] |
+<a id="__codelineno-1-12" name="__codelineno-1-12"></a>| [<span class="nt">其他人的github名称</span>](<span class="na">其他人的github账号</span>) | 100 | 其他人的某个思路2 | [<span class="nt">Java</span>](<span class="na">2.md#对应代码位置</span>) | [<span class="nt">题解链接</span>](<span class="na">2.md#对应解析位置</span>)/[文章 2] |
+<a id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="hll">| [<span class="nt">您的github名称</span>](<span class="na">您的github账号</span>) | 50 | 某个思路 |  | [<span class="nt">题解链接</span>](<span class="na">n.md#对应题解位置</span>)/[文章 3] |
+</span><a id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="hll">| [<span class="nt">您的github名称</span>](<span class="na">您的github账号</span>) | 100 | 根据某个思路的改进 | [<span class="nt">C++、Java、Python 3</span>](<span class="na">3.md#对应代码位置</span>) | [<span class="nt">题解链接</span>](<span class="na">n.md#对应题解位置</span>)/[文章 3] |
+</span><a id="__codelineno-1-15" name="__codelineno-1-15"></a>
+<a id="__codelineno-1-16" name="__codelineno-1-16"></a>[<span class="nl">文章 1</span>]: <span class="na">1.md</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17"></a>[<span class="nl">文章 2</span>]: <span class="na">2.md</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="hll">[<span class="nl">文章 3</span>]: <span class="na">3.md</span>
+</span></code></pre></div>
+</td></tr></table>
+<ol>
+<li>您只需要增加黄色背景的行即可，其他内容应该先前存在。</li>
+<li>对应位置即为网页标签对应位置，在生成网页后点击对应导航栏即可浏览。如果无法知晓，可以暂时忽略。</li>
+</ol>
 </div>
-<div class="admonition question">
-<p class="admonition-title">我对这个项目很感兴趣，该怎么参与？</p>
-<p>&emsp;&emsp;我们很感谢您对本项目的支持！</p>
-<p>&emsp;&emsp;参与的方式有很多，请参考 <a href="../contributing/">如何参与</a> 页面。</p>
 </div>
-<div class="admonition question">
-<p class="admonition-title">我可能比较弱，不知道该做些什么 QAQ</p>
-<p>&emsp;&emsp;我们很感谢您对本项目的支持！</p>
-<p>&emsp;&emsp;因为要收集不同的思路，所以我们希望听到更多人的声音。无论您处于算法学习途中的哪一阶段，想必都有自己在这一阶段的理解与收获。如果您能够将您的思路分享给大家，我们将会万分感谢。</p>
-<p>&emsp;&emsp;能参与的方式不只有提供思路与题解，其他也有很多。比如审核、修改稿件，宣传 CSP Project，提出优化界面的建议等等。</p>
-<p>&emsp;&emsp;参与帮助的方式有很多，请参考 <a href="../contributing/">如何参与</a> 页面。</p>
 </div>
+</details>
 
               
 
@@ -894,7 +1083,7 @@
     <nav class="md-footer__inner md-grid" aria-label="页脚">
       
         
-        <a href="../write_passage/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 如何编写自己的题解页面" rel="prev">
+        <a href="../contributing/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 如何参与" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -903,20 +1092,20 @@
               <span class="md-footer__direction">
                 上一页
               </span>
-              如何编写自己的题解页面
+              如何参与
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../problem/" class="md-footer__link md-footer__link--next" aria-label="下一页: 题目列表" rel="next">
+        <a href="../faq/" class="md-footer__link md-footer__link--next" aria-label="下一页: 常见问题解答" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一页
               </span>
-              题目列表
+              常见问题解答
             </div>
           </div>
           <div class="md-footer__button md-icon">

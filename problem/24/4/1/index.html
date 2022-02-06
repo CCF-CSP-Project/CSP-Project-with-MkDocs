@@ -7,10 +7,8 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <meta name="author" content="lonlyn">
       
-      
-        <link rel="canonical" href="https://lxlonlyn.github.io/CSP-Project-with-MkDocs/problem/24/4/1/">
+        <link rel="canonical" href="https://ccf-csp-project.github.io/CSP-Project-with-MkDocs/problem/24/4/1/">
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.9">
@@ -139,13 +137,13 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/lxlonlyn/CSP-Project-with-MkDocs/" title="前往仓库" class="md-source" data-md-component="source">
+        <a href="https://github.com/ccf-csp-project/CSP-Project-with-MkDocs/" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    CSP Project with MkDocs
   </div>
 </a>
       </div>
@@ -229,13 +227,13 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/lxlonlyn/CSP-Project-with-MkDocs/" title="前往仓库" class="md-source" data-md-component="source">
+      <a href="https://github.com/ccf-csp-project/CSP-Project-with-MkDocs/" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    CSP Project with MkDocs
   </div>
 </a>
     </div>
@@ -260,6 +258,8 @@
         
           
             
+          
+        
           
         
           
@@ -312,6 +312,20 @@
     <li class="md-nav__item">
       <a href="../../../../introduction/contributing/" class="md-nav__link">
         如何参与
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../introduction/write_passage/" class="md-nav__link">
+        如何编写自己的题解页面
       </a>
     </li>
   
@@ -957,7 +971,7 @@
               
 
                 
-<a href="https://github.com/lxlonlyn/CSP-Project-with-MkDocs/edit/master/docs/problem/24/4/1.md" title="编辑此页" class="md-content__button md-icon">
+<a href="https://github.com/ccf-csp-project/CSP-Project-with-MkDocs/edit/master/docs/problem/24/4/1.md" title="编辑此页" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
@@ -973,13 +987,11 @@
 </ul>
 <h2 id="100">100% 数据——离散化+线段树</h2>
 <p>通过这道题的操作要求等，我们可以大致推测出这道题可能需要使用线段树。</p>
-<div class="admonition note">
-<p class="admonition-title">提示</p>
-<p>如果没什么思路，可以拿各种数据结构往上套。
+<details class="note" open="open"><summary>提示</summary><p>如果没什么思路，可以拿各种数据结构往上套。
 例如本题，因为涉及区间修改、单点查询，对于树状数组来说负担太重，我们可以尝试其他数据结构。
 如果使用平衡树，则一般是要求出第 k 大数，或者是序列翻转类问题，对于本题来说不太契合。
 其他数据结构不再一一列举。综合考虑下，线段树是比较符合要求的。</p>
-</div>
+</details>
 <h3 id="_1">考虑线段树的做法</h3>
 <p>先不考虑线段树的内存空间问题，我们分析一下如何用线段树解决这道题目。</p>
 <p>考虑我们需要维护的量，目前已知的有磁盘位置的值、目前占用程序 id、上次占用程序 id。</p>
@@ -1037,9 +1049,7 @@
 （比如原来的区间是 <span class="arithmatex">\([1, 10]\)</span>，我们更改了区间 <span class="arithmatex">\([3,5]\)</span>，那么得到的区间为 <span class="arithmatex">\([1,2],[3,5],[6,10]\)</span>，多出了 <span class="arithmatex">\(2,3,5,6\)</span> 四个点）。
 那么总体来看，涉及到的点最多有 <span class="arithmatex">\(2\times 10^5\times 4 = 8\times 10^5\)</span> 个。</p>
 <p>我们可以维持这些点的相对大小关系，而将其投影到一个值域较小的区域，就可以减少空间占用了。这种方法称为离散化。</p>
-<div class="admonition note">
-<p class="admonition-title">离散化</p>
-<p>把无限空间中有限的个体映射到有限的空间中去，以此提高算法的时空效率。通俗的说，离散化是在不改变数据相对大小的条件下，对数据进行相应的缩小。
+<details class="note" open="open"><summary>离散化</summary><p>把无限空间中有限的个体映射到有限的空间中去，以此提高算法的时空效率。通俗的说，离散化是在不改变数据相对大小的条件下，对数据进行相应的缩小。
 离散化本质上可以看成是一种哈希，其保证数据在哈希以后仍然保持原来的全/偏序关系。</p>
 <p>离散化的一般性步骤：</p>
 <ul>
@@ -1047,13 +1057,13 @@
 <li>对所有的数据排序 (sort)、去重 (unique)；</li>
 <li>对于每个数，其离散化后的对应值即为其在排序去重后数组中的位置，可以通过二分 (lower_bound) 确定。</li>
 </ul>
-</div>
+</details>
 <p>这道题允许我们提前将所有可能出现的数记录下来（当然不是所有的题目都允许这样），所以这道题就解决了。
 线段树节点的个数与询问个数成比例，时间复杂度 <span class="arithmatex">\(\mathrm{O}(k\log k)\)</span>。</p>
 <h3 id="_3">实现</h3>
 <!-- \lstinputlisting[language=c++]{code/24/202112-4-100.cpp} -->
 
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C++</label></div>
+<details class="success" open="open"><summary>代码实现</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">  1</a></span>
@@ -1684,20 +1694,17 @@
 </div>
 </div>
 </div>
+</details>
 <h2 id="100_1">100% 数据——动态开点线段树</h2>
 <p>在上一题的做法中，我们需要先读入所有的数据并进行离散化处理，之后再执行主要的算法过程。
 但不是所有的题目都可以在执行主要的算法过程前得到所有的输入数据。</p>
-<div class="admonition note">
-<p class="admonition-title">离线算法</p>
-<p>要求在执行算法前输入数据已知的算法称为离线算法。
+<details class="note" open="open"><summary>离线算法</summary><p>要求在执行算法前输入数据已知的算法称为离线算法。
 一般而言，如果没有对输入输出做特殊处理，则可以用离线算法解决该问题。</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">在线算法</p>
-<p>不需要输入数据已知就可以执行的算法称为在线算法。
+</details>
+<details class="note" open="open"><summary>在线算法</summary><p>不需要输入数据已知就可以执行的算法称为在线算法。
 一般而言，如果对输入输出做特殊处理（如本次的询问需要与上次执行的答案进行异或才能得到真正的询问），则只能用离线算法解决该问题。</p>
 <p>对于一道能用离线和在线算法解决的题目，如果出题人对数据进行了加密处理，导致只能使用在线算法，则我们称这道题是<strong>强制在线</strong>的。</p>
-</div>
+</details>
 <p>离散化需要事先知道所有可能出现的数，所以是<strong>离线算法</strong>。如果要强制在线，就需要另一种思路。</p>
 <p>同样，从询问涉及的点有限出发，我们考虑最多能涉及线段树上点的个数。
 线段树的高度为 <span class="arithmatex">\(\mathrm{O}(\log m)\)</span>，假设每个涉及查询的点都到达了线段树的叶子结点，
@@ -1713,7 +1720,7 @@
 <h3 id="_4">实现</h3>
 <!-- \lstinputlisting[language=c++]{code/24/202112-4-100-2.cpp} -->
 
-<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">C++</label></div>
+<details class="success" open="open"><summary>代码实现</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">  1</a></span>
@@ -2230,6 +2237,7 @@
 </div>
 </div>
 </div>
+</details>
 
               
 
