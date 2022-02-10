@@ -34,8 +34,17 @@ nav:
       - 202112-4 磁盘文件操作: 
         - problem/24/4/index.md
         - 文章 1: problem/24/4/1.md
-      - 202112-5 极差路径: 
-        - problem/24/5/index.md
+    - 第 23 次:
+      - problem/23/index.md
+      - 202109-1 数组推导:
+        - problem/23/1/index.md
+        - 文章 1: problem/23/1/1.md
+      - 202109-2 非零段划分:
+        - problem/23/2/index.md
+        - 文章 1: problem/23/2/1.md
+      - 202109-3 脉冲神经网络:
+        - problem/23/3/index.md
+        - 文章 1: problem/23/3/1.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -58,6 +67,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - md_in_html
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
