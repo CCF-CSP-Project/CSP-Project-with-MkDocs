@@ -680,38 +680,12 @@
     40% 数据——直接模拟
   </a>
   
-    <nav class="md-nav" aria-label="40% 数据——直接模拟">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    实现
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
   <a href="#100" class="md-nav__link">
     100% 数据——模拟+多项式除法
   </a>
-  
-    <nav class="md-nav" aria-label="100% 数据——模拟+多项式除法">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    实现
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -817,6 +791,8 @@
         
           
             
+          
+        
           
         
           
@@ -1036,6 +1012,69 @@
 
             
           
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_5" type="checkbox" id="__nav_2_3_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../23/4/">202109-4 收集卡牌</a>
+          
+            <label for="__nav_2_3_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="202109-4 收集卡牌" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          202109-4 收集卡牌
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../23/4/1/" class="md-nav__link">
+        文章 1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1080,38 +1119,12 @@
     40% 数据——直接模拟
   </a>
   
-    <nav class="md-nav" aria-label="40% 数据——直接模拟">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    实现
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
   <a href="#100" class="md-nav__link">
     100% 数据——模拟+多项式除法
   </a>
-  
-    <nav class="md-nav" aria-label="100% 数据——模拟+多项式除法">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    实现
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1143,9 +1156,7 @@
 <li>根据有效数据区每行能容纳的码字数 <span class="arithmatex">\(w\)</span> 及目前码字个数，在末尾补充码字。注意不要忽略长度码字。</li>
 <li>输出结果。</li>
 </ol>
-<h3 id="_1">实现</h3>
-<!-- \lstinputlisting[language=c++]{code/24/202112-3-40.cpp} -->
-
+<p><a id="code1"></a></p>
 <details class="success" open="open"><summary>代码实现</summary><div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1352,9 +1363,7 @@
 所以可以在一个数组上，从低位到高位依次计算，得到结果。</p>
 <p>计算 <span class="arithmatex">\(x^kd(x)\)</span>：这部分比较简单，将低 <span class="arithmatex">\(k\)</span> 位的系数赋 <span class="arithmatex">\(0\)</span>，再将已计算出的数据位放入对应位置即可。</p>
 <p>计算 <span class="arithmatex">\(x^kd(x) \mod g(x)\)</span>：利用上文提到的多项式长除法即可。本题 <span class="arithmatex">\(g(x)\)</span> 的最高位系数恒为 <span class="arithmatex">\(1\)</span>，简化了计算。</p>
-<h3 id="_2">实现</h3>
-<!-- \lstinputlisting[language=c++]{code/24/202112-3-100.cpp} -->
-
+<p><a id="code2"></a></p>
 <details class="success" open="open"><summary>代码实现</summary><div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1734,7 +1743,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.indexes", "navigation.tabs"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "search": "../../../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.indexes", "navigation.tabs", "navigation.tracking"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "search": "../../../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.960e086b.min.js"></script>
