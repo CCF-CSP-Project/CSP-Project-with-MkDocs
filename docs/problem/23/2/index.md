@@ -9,6 +9,6 @@
 | 贡献者 | 期望得分 | 大概思路 | 使用语言 | 链接 |
 | :-: | :-: | :-: | :-: | :-: | 
 | [lonlyn](https://github.com/lxlonlyn) | 70 | 模拟 |  | [题解链接](1.md#70)/[文章 1] |
-| [lonlyn](https://github.com/lxlonlyn) | 100 | 避免不必要更新 | [C++](1.md#_1) | [题解链接](1.md#100)/[文章 1] |
+| [lonlyn](https://github.com/lxlonlyn) | 100 | 避免不必要更新 | [C++](1.md#code1) | [题解链接](1.md#100)/[文章 1] |
 
 [文章 1]: 1.md
