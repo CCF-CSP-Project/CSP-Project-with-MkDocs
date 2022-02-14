@@ -49,6 +49,11 @@ nav:
       - 202109-4 收集卡牌:
         - problem/23/4/index.md
         - 文章 1: problem/23/4/1.md
+  - 知识库:
+    - knowledge/index.md
+    - 数据结构:
+      - Link Cut Tree: 
+        - knowledge/ds/lct/index.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
