@@ -183,13 +183,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../" class="md-tabs__link">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
         题目列表
       </a>
     </li>
@@ -374,12 +376,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -741,18 +745,22 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
       
       
       
         
           
             
+          
+        
           
         
           
@@ -1037,6 +1045,71 @@
 
             
           
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_6" type="checkbox" id="__nav_2_3_6" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">202109-5 箱根山岳险天下</a>
+          
+            <label for="__nav_2_3_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="202109-5 箱根山岳险天下" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          202109-5 箱根山岳险天下
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="1/" class="md-nav__link">
+        文章 1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1242,25 +1315,59 @@
 <h2 id="_1">题目链接</h2>
 <p><a href="http://118.190.20.162/view.page?gpid=T133">202109-5 箱根山岳险天下</a></p>
 <h2 id="_2">思路列表</h2>
-<table>
-<thead>
-<tr>
-<th align="center">贡献者</th>
-<th align="center">期望得分</th>
-<th align="center">大概思路</th>
-<th align="center">使用语言</th>
-<th align="center">链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody>
+<table id="idea_list" class="display nowrap" style="width:100%">
+  <thead>
+  <tr>
+    <th>题解文章</th>
+    <th>得分</th>
+    <th>要求</th>
+    <th>大致思路</th>
+    <th>题解语言</th>
+    <th>链接</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td></td>
+      <td></th>
+      <td>建立树模型</td>
+      <td></td>
+      <td><a href="1#_1">题解链接</a></td>
+    </tr>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>10</td>
+      <td>m&le;5000</th>
+      <td>搜索确定路径</td>
+      <td></td>
+      <td><a href="1#1">题解链接</a></td>
+    </tr>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>10</td>
+      <td>事件 1 中 x&gt;0</th>
+      <td>线段树</td>
+      <td></td>
+      <td><a href="1#2">题解链接</a></td>
+    </tr>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>40</td>
+      <td>mode=0（离线）</th>
+      <td>树链剖分</td>
+      <td></td>
+      <td><a href="1#_6">题解链接</a></td>
+    </tr>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>100</td>
+      <td>无特殊限制</th>
+      <td>Link Cut Tree</td>
+      <td><a href="1#code1">C++</td>
+      <td><a href="1#100-link-cut-tree">题解链接</a></td>
+    </tr>
+  </tbody>
 </table>
 
               
@@ -1308,6 +1415,41 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="页脚">
+      
+        
+        <a href="../4/1/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 文章 1" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              文章 1
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="1/" class="md-footer__link md-footer__link--next" aria-label="下一页: 文章 1" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              文章 1
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
