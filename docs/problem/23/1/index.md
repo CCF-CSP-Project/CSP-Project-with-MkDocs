@@ -1,3 +1,6 @@
+---
+template: problem.html
+---
 # 202109-1 数组推导
 
 ## 题目链接

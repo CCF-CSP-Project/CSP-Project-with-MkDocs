@@ -1,3 +1,6 @@
+---
+template: contest.html
+---
 # 第 23 次（2021 年 9 月）
 
 

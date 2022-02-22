@@ -1,3 +1,6 @@
+---
+template: problem.html
+---
 # 202109-4 收集卡牌
 
 ## 题目链接

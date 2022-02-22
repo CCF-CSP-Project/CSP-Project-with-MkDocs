@@ -1,3 +1,6 @@
+---
+template: problem.html
+---
 # 202112-3 登机牌号码
 
 ## 题目链接

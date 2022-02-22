@@ -1,3 +1,6 @@
+---
+template: problem.html
+---
 # 202112-5 极差路径
 
 ## 题目链接

@@ -1,3 +1,6 @@
+---
+template: problem.html
+---
 # 202109-2 非零段划分
 
 ## 题目链接

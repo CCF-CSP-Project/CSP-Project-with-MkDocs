@@ -52,6 +52,14 @@ nav:
       - 202109-5 箱根山岳险天下:
         - problem/23/5/index.md
         - 文章 1: problem/23/5/1.md
+    - 第 22 次:
+      - problem/22/index.md
+      - 202104-1 灰度直方图: 
+        - problem/22/1/index.md
+        - 文章 1: problem/22/1/1.md
+      - 202104-2 邻域均值:
+        - problem/22/2/index.md
+        - 文章 1: problem/22/2/1.md
   - 知识库:
     - knowledge/index.md
     - 数据结构:

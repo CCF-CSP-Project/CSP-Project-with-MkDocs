@@ -1,3 +1,6 @@
+---
+template: problem.html
+---
 # 202112-1 序列查询
 
 ## 题目链接
