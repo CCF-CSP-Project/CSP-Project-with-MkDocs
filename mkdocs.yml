@@ -60,6 +60,9 @@ nav:
       - 202104-2 邻域均值:
         - problem/22/2/index.md
         - 文章 1: problem/22/2/1.md
+      - 202104-3 DHCP服务器:
+        - problem/22/3/index.md
+        - 文章 1: problem/22/3/1.md
   - 知识库:
     - knowledge/index.md
     - 数据结构:
