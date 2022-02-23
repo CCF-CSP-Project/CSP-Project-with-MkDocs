@@ -1,5 +1,9 @@
 ---
 template: problem.html
+tags:
+  - 模拟
+hide:
+  - tags
 ---
 # 202104-3 DHCP服务器
 

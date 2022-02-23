@@ -1,5 +1,10 @@
 ---
 template: problem.html
+tags:
+  - 模拟
+  - 滚动数组
+hide:
+  - tags
 ---
 # 202109-3 脉冲神经网络
 

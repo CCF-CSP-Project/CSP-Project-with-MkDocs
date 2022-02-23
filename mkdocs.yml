@@ -65,6 +65,7 @@ nav:
         - 文章 1: problem/22/3/1.md
   - 知识库:
     - knowledge/index.md
+    - 标签搜索: tags.md
     - 数据结构:
       - Link Cut Tree: 
         - knowledge/ds/lct/index.md
@@ -100,3 +101,9 @@ extra_javascript:
   - javascripts/site.js
 extra_css:
   - https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css
+
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search:
+      separator: '[\s\-\.]'

@@ -1,5 +1,9 @@
 ---
 template: problem.html
+tags:
+  - 动态树
+hide:
+  - tags
 ---
 # 202109-5 箱根山岳险天下
 

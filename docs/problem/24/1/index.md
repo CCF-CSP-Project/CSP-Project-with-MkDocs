@@ -1,5 +1,9 @@
 ---
 template: problem.html
+tags:
+  - 模拟
+hide:
+  - tags
 ---
 # 202112-1 序列查询
 

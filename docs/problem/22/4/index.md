@@ -1,5 +1,9 @@
 ---
 template: problem.html
+tags:
+  - 动态规划
+hide:
+  - tags
 ---
 # 202104-4 校门外的树
 

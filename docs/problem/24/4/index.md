@@ -1,5 +1,9 @@
 ---
 template: problem.html
+tags:
+  - 线段树
+hide:
+  - tags
 ---
 # 202112-4 磁盘文件操作
 

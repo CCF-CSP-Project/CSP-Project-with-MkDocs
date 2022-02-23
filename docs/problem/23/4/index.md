@@ -1,5 +1,9 @@
 ---
 template: problem.html
+tags:
+  - 记忆化搜索
+hide:
+  - tags
 ---
 # 202109-4 收集卡牌
 

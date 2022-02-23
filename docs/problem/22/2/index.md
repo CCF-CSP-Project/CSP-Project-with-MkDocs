@@ -1,5 +1,10 @@
 ---
 template: problem.html
+tags:
+  - 模拟
+  - 前缀和
+hide:
+  - tags
 ---
 # 202104-2 邻域均值
 

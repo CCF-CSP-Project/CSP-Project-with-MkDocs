@@ -1,5 +1,9 @@
 ---
 template: problem.html
+tags:
+  - 模拟
+hide:
+  - tags
 ---
 # 202109-1 数组推导
 
