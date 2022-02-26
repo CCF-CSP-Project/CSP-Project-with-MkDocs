@@ -25,5 +25,37 @@ hide:
   </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>10</td>
+      <td>n=2</th>
+      <td>输出真因子个数</td>
+      <td></td>
+      <td><a href="1#10">题解链接</a></td>
+    </tr>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>30</td>
+      <td>n&le;10</th>
+      <td>搜索</td>
+      <td></td>
+      <td><a href="1#30">题解链接</a></td>
+    </tr>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>60</td>
+      <td>n&le;100,a<sub>i</sub>&le;1000</th>
+      <td>动态规划</td>
+      <td></td>
+      <td><a href="1#60">题解链接</a></td>
+    </tr>
+    <tr>
+      <td><a href="1">文章 1</a></td>
+      <td>100</td>
+      <td>无特殊限制</th>
+      <td>优化一型美观区间方案数的计算</td>
+      <td><a href="1#code1">C++</td>
+      <td><a href="1#100">题解链接</a></td>
+    </tr>
   </tbody>
 </table>

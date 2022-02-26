@@ -63,6 +63,9 @@ nav:
       - 202104-3 DHCP服务器:
         - problem/22/3/index.md
         - 文章 1: problem/22/3/1.md
+      - 202104-4 校门外的树:
+        - problem/22/4/index.md
+        - 文章 1: problem/22/4/1.md
   - 知识库:
     - knowledge/index.md
     - 标签搜索: tags.md
