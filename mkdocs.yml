@@ -66,6 +66,11 @@ nav:
       - 202104-4 校门外的树:
         - problem/22/4/index.md
         - 文章 1: problem/22/4/1.md
+    - 第 21 次:
+      - problem/21/index.md
+      - 202012-1 期末预测之安全指数:
+        - problem/21/1/index.md
+        - 文章 1: problem/21/1/1.md
   - 知识库:
     - knowledge/index.md
     - 标签搜索: tags.md
